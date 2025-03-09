@@ -501,7 +501,7 @@ tracking:
   service:
     ## @param tracking.service.type mlflow service type
     ##
-    type: LoadBalancer
+    type: NodePort
     ## @param tracking.service.ports.http mlflow service HTTP port
     ## @param tracking.service.ports.https mlflow service HTTPS port
     ##
