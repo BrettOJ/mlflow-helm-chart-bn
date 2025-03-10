@@ -19,8 +19,8 @@ global:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  defaultStorageClass: ""
-  storageClass: ""
+  defaultStorageClass: "local-storage"
+  storageClass: "local-storage"
   ## Security parameters
   ##
   security:
@@ -734,7 +734,7 @@ tracking:
     ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
     ##   GKE, AWS & OpenStack)
     ##
-    storageClass: ""
+    storageClass: "local-storage"
     ## @param tracking.persistence.labels Persistent Volume labels
     ##
     labels: {}
@@ -1168,7 +1168,7 @@ run:
     ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
     ##   GKE, AWS & OpenStack)
     ##
-    storageClass: ""
+    storageClass: "local-storage"
     ## @param run.persistence.existingClaim Use a existing PVC which must be created manually before bound
     ##
     existingClaim: ""
