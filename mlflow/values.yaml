@@ -1326,8 +1326,8 @@ waitContainer:
 postgresql:
   enabled: true
   auth:
-    username: bn_mlflow
-    password: ""
+    username: admin
+    password: "Password@123"
     database: bitnami_mlflow
     existingSecret: ""
   architecture: standalone
