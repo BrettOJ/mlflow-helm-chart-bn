@@ -275,7 +275,7 @@ tracking:
   auth:
     enabled: true
     username: admin
-    password: "Password@123"
+    password: "Password!123"
     flaskServerSecretKey: ""
     existingSecret: ""
     existingSecretUserKey: ""
@@ -1328,7 +1328,7 @@ postgresql:
   storageClass: "local-storage"
   auth:
     username: admin
-    password: "Password@123"
+    password: "Password!123"
     database: bitnami_mlflow
     existingSecret: ""
   architecture: standalone
@@ -1364,7 +1364,7 @@ externalDatabase:
   user: postgres
   database: mlflow
   authDatabase: mlflow_auth
-  password: "Password@123"
+  password: "Password!123"
   existingSecret: ""
   existingSecretPasswordKey: "db-password"
 ## @section MinIO&reg; chart parameters
