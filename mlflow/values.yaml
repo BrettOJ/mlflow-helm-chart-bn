@@ -783,7 +783,7 @@ tracking:
   metrics:
     ## @param tracking.metrics.enabled Enable the export of Prometheus metrics
     ##
-    enabled: false
+    enabled: true
     ## @param tracking.metrics.annotations [object] Annotations for the tracking service in order to scrape metrics
     annotations:
       prometheus.io/scrape: "true"
