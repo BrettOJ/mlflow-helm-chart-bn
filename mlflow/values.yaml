@@ -1325,6 +1325,7 @@ waitContainer:
 ##
 postgresql:
   enabled: true
+  storageClass: "local-storage"
   auth:
     username: admin
     password: "Password@123"
@@ -1363,7 +1364,7 @@ externalDatabase:
   user: postgres
   database: mlflow
   authDatabase: mlflow_auth
-  password: ""
+  password: "Password@123"
   existingSecret: ""
   existingSecretPasswordKey: "db-password"
 ## @section MinIO&reg; chart parameters
